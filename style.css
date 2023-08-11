@@ -1,0 +1,61 @@
+nav{
+    background-color: gray;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+
+
+nav ul li{
+    float:right;
+    margin-right: 50px;
+    list-style-type: none;
+   
+}
+
+
+#brand{
+    float: left;
+}
+
+
+.nav-link{
+    color: darkred;
+    
+}
+
+
+
+.header{
+    
+    text-align: center;
+    font-family: 'Allan', cursive;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+
+}
+#mainHeader{
+    color: rebeccapurple
+}
+
+#dogPic{
+    width: 300px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate3d(1, 1, 1, 50deg);
+}
+   
+    
+
+
+#paragraph{
+    float: right;
+    margin-right: 50px;
+    font-family: 'Spectral SC', serif;
+}
