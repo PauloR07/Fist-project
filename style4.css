@@ -1,0 +1,137 @@
+
+    
+   
+
+
+ body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  
+}
+
+.header{
+  width: 2080px;
+  height: 791px;
+  margin: 0 ;
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original");
+}
+
+.header:hover {
+ opacity: .9;
+}
+
+
+
+#logoTitle{
+  width: 100px;
+  height: 61px;
+  padding: 0 0 0 40px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+ 
+  font-size: 2rem;
+  color: #1ce783; 
+  box-sizing: inherit;
+  overflow: hidden;
+  font-weight: 750;
+  font-family: Graphik,Helvetica,Arial,sans-serif;
+  justify-content: flex-start;
+}
+
+
+.setg{
+  width: 2080px;
+  height: 175px;
+  margin: -17px  0;
+  padding-top: 30px;
+  background: linear-gradient(180deg, #29A869 0.66%, #16181D 99.34%);
+  text-align: center;
+}
+    
+.gol{
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: "Graphik Web",sans-serif;
+  line-height: 1.32;
+  color: #fff;
+  margin: -5px 0;
+  padding: 25px 0;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  display: block;
+    
+}
+
+.css-1hdv16d{
+   width: 100%;
+   display: inherit;
+   -webkit-box-align: inherit;
+   align-items: center;
+   -webkit-box-pack: inherit;
+   justify-content: inherit;
+}
+
+
+.button-css-1q6kwnu{
+  font-family: "Graphik Web",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  -Webkit-tap-highlight-color: transparent;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  min-width: 64px;
+  border-radius: 4px;
+  color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: transparent;
+  padding: 0 70px;
+  height: 60px;
+  overflow: hidden;
+}
+
+
+.button-css-1q6kwnu:hover {
+  
+ background:  linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%);
+}
+
+  
+#start{
+ color: #fff;
+ 
+}
+
+
+.library{
+  width: 2080px;
+  height: 791px;
+  background-color: #0b0c0f;
+  color: #1ce783;
+  position: relative;
+}
+
+
+.library-grid:hover{
+  background:  linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%);
+}
+
+

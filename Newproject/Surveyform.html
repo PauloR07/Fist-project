@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "/>
+    <link rel="stylesheet" href="styles.css">
+    <title>survey form</title>
+  </head>
+  <body>
+    <div class="container"> 
+      <header class="header">
+        <h1 id="title" class="text-center">Survey Form</h1>
+        <p id="description" class="description text-center">Thank you for taking the time to help us improve the platform</p>
+      </header>
+      <form class="form-job">
+        <div class="group">
+          <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" name="name" class="form-control" placeholder="Enter your name" required>
+          <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" name="email" class="form-control" placeholder="Enter your Email" required>
+          <label id="number-label">Number</label>
+            <input id="number" type="number" name="number" class="form-control" min="15" max="99" placeholder="Age" required>
+              <span class="clue">(optional)</span>
+          </div>
+          <div class="group">
+            <p>Which option best describes your current role?</p>
+            <select  id="dropdown" name="role" class="form-control" required>
+              <option value="selec current role">Select current role</option>
+              <option value="student">Student</option>
+              <option value="full-time-job">Full time job</option>
+              <option value="full-time-learner">Full time learner</option>
+              <option value="prefer-not-to-say">Prefer not to say </option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="group"> 
+            <p>Would you recommend Job.com to a friend?</p>
+            <label>
+              <input  name="user-recommend" value="Definitely" type="radio" class="input-label" required checked>
+              Definitely
+            </label> 
+            <label>
+              <input  name="user-recommend" value="Maybe" type="radio" class="input-label" required>
+              Maybe
+            </label>
+            <label>
+              <input  name="user-recommend" value="Not sure" type="radio" class="input-label" required>
+              Not sure
+            </label>
+          </div>
+          <div class="form">
+            <p>What is favorite feature of Job.com </p>
+            <select id="feature" name="feature" class="form-control" required>
+              <option value="select an option">Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">community</option>
+              <option value="open source">Open Source</option>
+            </select>
+          </div>
+          <div class="group">
+            <p>What would your to see improved?</p>
+            <span class="clue">(Check all that apply)</span>
+            <label>
+              <input  name="prefer" value="front-end projects" type="checkbox" class="input-checkbox" required>
+              Front-end Projects
+            </label>
+            <label> 
+              <input name="prefer" value="back-end projects" type="checkbox" class="input-checkbox" required>
+              Back-end Projects
+            </label>
+            <label>
+              <input  name="data Visualization" type="checkbox" class="input-checkbox" required>
+              Data Visualization
+            </label>
+            <label>
+              <input  name="prefer" type="checkbox" class="input-checkbox" required>
+              Challenges
+            </label>
+            <label>
+              <input  name="prefer" value="open source community" type="checkbox" class="input-checkbox" required>
+              Open Source Community
+            </label>
+            <label>
+              <input  name="prefer" value="gitter help rooms" type="checkbox" class="input-checkbox" required>
+              Gitter help rooms
+            </label>
+            <label>
+              <input  name="prefer" value="videos" type="checkbox" class="input-checkbox" required>
+              Videos
+            </label>
+            <label>
+              <input  name="prefer" value="city Meetups" type="checkbox" class="input-checkbox" required>
+              City Meetups
+            </label>
+            <label>
+              <input name="wiki" type="checkbox" required>
+              Wiki
+            </label>
+            <label>
+              <input name="prefer" value="forum" type="checkbox" class="input-checkbox" required>
+              Forum
+            </label>
+            <label>
+              <input  name="prefer" value="additional courses" type="checkbox" class="input-checkbox" required>
+              Additional Courses
+            </label>
+          </div>
+          <div class="group">
+            <p>Any comments or suggestion?</p>
+            <textarea id="comment" class="input-textarea" name="comment" placeholder="Enter your comment here"></textarea>
+          </div>
+          <div class="group">
+            <button id="submit" type="submit" class="submit-button">Submit</button>
+          </div> 
+        </div>
+      </form>     
+    </div>    
+  </body>    
+</html>    
